@@ -1,5 +1,7 @@
 /* Kinard Entrepreneurship Stylesheet */
-
+body {
+    background: linear-gradient(to bottom, #ffcccc, #ffffcc);
+}
 /* General Styles */
 body {
     background-color: white;
