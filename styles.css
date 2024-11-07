@@ -1,0 +1,72 @@
+/* Kinard Entrepreneurship Stylesheet */
+
+/* General Styles */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: red;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
