@@ -1,6 +1,23 @@
 /* Kinard Entrepreneurship Stylesheet */
 body {
     background: linear-gradient(to bottom, #ffcccc, #ffffcc);
+button {
+    transition: transform 0.3s ease;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: translateY(-3px);
+}
+
 }
 /* General Styles */
 body {
@@ -71,4 +88,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+img {
+    border-radius:10px;
 }
