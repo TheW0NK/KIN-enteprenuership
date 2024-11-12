@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
     const targetUrl = 'https://sites.google.com/psdschools.org/wooden?usp=sharing';
     const response = await fetch(targetUrl);
     const body = await response.text();
